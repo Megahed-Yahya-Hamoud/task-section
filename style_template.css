@@ -1,0 +1,127 @@
+.row .room{
+    background-image: url("https://themewagon.github.io/hiroto/img/home-room/hr-1.jpg");
+}
+
+.row .stairs{
+    background-image: url("https://themewagon.github.io/hiroto/img/home-room/hr-2.jpg");
+}
+
+.row .bed{
+    background-image: url("https://themewagon.github.io/hiroto/img/home-room/hr-3.jpg");
+}
+
+.row .bedroom{
+    background-image: url("https://themewagon.github.io/hiroto/img/home-room/hr-4.jpg");
+}
+
+.row .room ,
+.row .stairs ,
+.row .bed ,
+.row .bedroom{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    transition: 0.5s;
+    width: 365px;
+}
+
+.row .room .price ,
+.row .stairs .price ,
+.row .bed .price ,
+.row .bedroom .price{
+    bottom: 10%;
+    transition: 0.6s;
+}
+
+.row .room a ,
+.row .stairs a ,
+.row .bed a ,
+.row .bedroom a{
+    text-decoration: none;
+    border-bottom:3px solid #E9AD28;
+    bottom: 5%;
+    opacity: 0;
+    transform: translateY(11px);
+    transition: 0.5s;
+}
+
+.row .room:hover .price ,
+.row .stairs:hover .price ,
+.row .bed:hover .price ,
+.row .bedroom:hover .price{
+    bottom: 80%;
+    transition:  0.6s ;
+}
+
+.row .room:hover a ,
+.row .stairs:hover a ,
+.row .bed:hover a ,
+.row .bedroom:hover a{
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(2px);
+}
+
+/* ------------------------------------------------------------------- */
+
+.planning{
+    margin-top: 100px;
+}
+
+.planning .row{
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+    align-items: center;
+}
+.planning  div .Explorer{
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin: -20px;
+}
+
+
+/* ---------------------------------------------------------------------------------- */
+
+.section-TESTIMONIALS .right-content .TESTIMONIALS{
+    color: #E9AD28;
+    letter-spacing: 2px;
+    
+}
+
+.section-TESTIMONIALS .left-content{
+    overflow: hidden;
+}
+
+/* ------------------------------------------------------------------ */
+
+.section-booking{
+    background-image:url("https://themewagon.github.io/hiroto/img/chooseus-bg.jpg") ;
+    background-repeat: no-repeat;
+}
+
+.section-booking div .CHOOSE{
+    letter-spacing: 3px;
+}
+
+.section-booking div .link-booking{
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+/* ------------------------------------------------------------------------- */
+
+.section-gallery div .gallery{
+    letter-spacing: 2px;
+}
+
+.section-gallery div .right-content a{
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+/* ------------------------------------------------------------------------- */
+
+.section-image .row > div{
+    overflow: hidden;
+}
